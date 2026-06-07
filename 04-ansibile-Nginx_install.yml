@@ -1,7 +1,7 @@
 - name: Nginx install and start services
   hosts: frontend
   tasks:
-   - name: Nginx installtion
+   - name: install nginx
      ansible.built.package:
       name: nginx
       state: present

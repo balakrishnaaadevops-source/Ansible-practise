@@ -1,0 +1,10 @@
+- name: varaibles
+  hosts: localhost
+  connection: local
+  vars:
+    course: "Ansible"
+    traine: "shiva"
+    duration: "150h"
+  tasks:
+  - debug:
+      msg: "Hi i am learning {{ course }} from {{ traine }} and duration is {{ duration }}"

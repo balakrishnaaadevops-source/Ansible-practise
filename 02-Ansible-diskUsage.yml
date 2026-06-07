@@ -1,0 +1,5 @@
+- name: diskusage
+  hosts: frontend
+  tasks:
+  - name: diskuase check
+    ping:

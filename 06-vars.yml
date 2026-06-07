@@ -1,10 +1,10 @@
-- name: varaibles
-  hosts: localhost
-  connection: local
+- name: ansible varabiles
+  hosts: frontend
   vars:
     course: "Ansible"
-    traine: "shiva"
+    traine: "Shiva"
     duration: "150h"
   tasks:
-  - debug:
-      msg: "Hi i am learning {{ course }} from {{ traine }} and duration is {{ duration }}"
+    - debug:
+        msg: "I am learning {{ course }} from {{ traine }} and duration is {{ duration }}"
+        
